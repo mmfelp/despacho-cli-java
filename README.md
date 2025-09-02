@@ -1,7 +1,6 @@
 # Despacho a domicilio (CLI en Java)
 
-
-Requerimientos Funcionales (RF)
+## Requerimientos Funcionales (RF)
 
 RF-01 – Ingreso de monto de compra:
 El sistema permite ingresar el monto de compra en pesos (entero ≥ 0).
@@ -46,6 +45,8 @@ despacho-cli-java/
 ├─ README.md
 └─ .gitignore
 ```
+## Historiias de Usuario 
+https://github.com/mmfelp/despacho-cli-java/blob/main/docs/historias-usuario.md
 
 ## Compilación (CLI)
 ```bash
