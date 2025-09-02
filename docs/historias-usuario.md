@@ -1,4 +1,4 @@
-HU-1 — Despacho gratis (compra alta, dentro de radio)
+## HU-1 — Despacho gratis (compra alta, dentro de radio)
 
 Como cliente
 Quiero que si mi compra es > $50.000 y la distancia ≤ 20 km
@@ -21,7 +21,7 @@ Cuando ejecuto el cálculo
 Entonces el costo de despacho es 0
 Y el total a pagar es $50.000
 
-HU-2 — Despacho $150/km (compra media)
+## HU-2 — Despacho $150/km (compra media)
 
 Como cliente
 Quiero que si mi compra está entre $25.000 y $49.999
@@ -44,7 +44,7 @@ Cuando ejecuto el cálculo
 Entonces el costo de despacho es $750
 Y el total a pagar es $25.750
 
-HU-3 — Despacho $300/km (compra baja)
+## HU-3 — Despacho $300/km (compra baja)
 
 Como cliente
 Quiero que si mi compra es menor a $25.000
@@ -61,7 +61,7 @@ Cuando ejecuto el cálculo
 Entonces el costo de despacho es $2.400
 Y el total a pagar es $22.400
 
-HU-4 — Fuera de radio (> 20 km)
+## HU-4 — Fuera de radio (> 20 km)
 
 Como cliente fuera del radio
 Quiero saber que no hay despacho si la distancia supera los 20 km
@@ -77,7 +77,7 @@ Cuando ejecuto el cálculo
 Entonces el sistema informa "La opción de despacho a domicilio no se encuentra disponible"
 Y el programa finaliza sin calcular totales
 
-HU-5 — Validación de entradas negativas
+## HU-5 — Validación de entradas negativas
 
 Como cliente
 Quiero ser notificado si ingreso valores negativos
@@ -100,7 +100,7 @@ Cuando ejecuto el cálculo
 Entonces el sistema informa "Distancia inválida"
 Y no realiza el cálculo
 
-HU-6 — Mensajes claros (resumen de operación)
+## HU-6 — Mensajes claros (resumen de operación)
 
 Como cliente
 Quiero ver un resumen claro del costo de despacho y total
@@ -116,7 +116,7 @@ Cuando se calcula el despacho
 Entonces el sistema muestra "Costo de despacho: <monto>"
 Y "Total a pagar: <monto>"
 
-HU-7 — Validación de correo Gmail
+## HU-7 — Validación de correo Gmail
 
 Como usuario que se registra
 Quiero ingresar un correo @gmail.com válido
@@ -127,13 +127,11 @@ Prioridad: Baja (opcional para esta entrega CLI)
 
 Criterios de aceptación:
 
-Dado el correo "cliente@gmail.com
-"
+Dado el correo "cliente@gmail.com"
 Cuando valido el formato
 Entonces el sistema acepta el correo
 
-Dado el correo "cliente@outlook.com
-"
+Dado el correo "cliente@outlook.com"
 Cuando valido el formato
 Entonces el sistema rechaza el correo
 Y muestra "Debe ser una cuenta Gmail (@gmail.com)"
